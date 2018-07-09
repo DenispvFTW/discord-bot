@@ -38,7 +38,7 @@ bot.on('guildMemberAdd', member => {
 
   member.guild.channels.get("464924627937001473").setName(`⭐ Goal: ${member.guild.memberCount}/100`)
 
-    let canal = member.guild.channels.find('id', 'ID-UL LA CANAL AICI');
+    let canal = member.guild.channels.find('id', '459435673188040715');
     canal.send("[**+**] " + member.user.tag + "");
 });
 
