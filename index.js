@@ -77,4 +77,4 @@ bot.on("message", async message => {
 
 });
 
-bot.login("process.env.TOKEN");
+bot.login("process.env.token");
